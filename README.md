@@ -1,45 +1,38 @@
 # emotions
 
-This template should help get you started developing with Vue 3 in Vite.
+Esta es una web que permite escribir una oración y te devuelve el sentimiento que transmite.
+mediante un modelo de machine learning entrenado con 25000 oraciones.
 
-## Recommended IDE Setup
+## Instalación y configuración 🛠️
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Renombrar el `.env.local.example` a `.env.local` y configurar las variables de entorno.
 
-## Type Support for `.vue` Imports in TS
+| Variable | Descripción |
+|---|---|
+| `VITE_BASE_URL` | URL de la API (Python) with model |
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Para instalar las dependencias necesarias para correr el proyecto, ejecutar el siguiente comando:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Formato de código
 
-```sh
+```bash
+npm run format
+```
+
+## Uso 🚀
+
+Para correr el proyecto, ejecutar el siguiente comando:
+
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Screenshots 📷
 
-```sh
-npm run build
-```
+![image](./244shots_so.png)
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+![image](./Galaxy-A12-localhost.png)
